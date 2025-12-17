@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first website</title>
+</head>
+<body>
+    
+    <a href="https://www.google.com" target="_blank">
+        <button style="background-color: #333333;color: aliceblue;border-radius: 5px;">click me</button>
+    </a>
+    <a href="https://www.google.com" target="_blank">
+        <button disabled>disabled button</button>
+    </a>
+
+    <button onclick="doSomething()" style="background-color: #333333;color: aliceblue;border-radius: 5px;">change text</button>
+    <p id="test">Hello</p>
+
+    <script>
+        function doSomething() {
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+    </script>
+</body>
+</html>
